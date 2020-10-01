@@ -1,4 +1,4 @@
-// COMMENT FORMATTING
+// COMMENT FORMATTING \/
 
 /***********************************************************************
 * Program:
@@ -19,6 +19,10 @@
 // USE standard namespace
 using namespace std;
 
+// FUNCTION COMMENT FORMATTING \/
+/**********************************************************************
+ * Main Function - Function description of what it does
+ ***********************************************************************/
 int main()
 {
     // Display out to the console
@@ -84,4 +88,38 @@ int main()
     + -                 Addition, Subtraction
     = += -= *= /= %=    Assign, Add-on, Subtract-from, Multiply onto, Divide from, Modulo from
     */
+
+    // Prepare next output to be formatted with 1 decimal place
+    cout.setf(ios::fixed);     //
+    cout.setf(ios::showpoint); //
+    cout.precision(1);         //
+
+    cout << "Celsius: " << 8.236 << "\n";
+    return 0;
+
+    // Return 0 at the end of main to return status 0. This is more for error statuses for the compiler.
+    return 0;
+}
+
+// Example of a function
+
+/*
+    STRUCTURE OF A FUNCTION
+    <return type> <function name>(<parameter list seperated by a comma [<data type><parameter name>]>)
+        {
+            <statement list>
+            return <return value>;
+        }
+*/
+
+/**********************************************************************
+ * Example Function - For example purposes
+ ***********************************************************************/
+int exampleFunction(char parameterInput)
+{
+    // Code
+    // ...
+    // Use of params
+    parameterInput += 1;
+    return 0;
 }
