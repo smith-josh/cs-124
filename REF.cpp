@@ -20,9 +20,11 @@
 using namespace std;
 
 // FUNCTION COMMENT FORMATTING \/
-/**********************************************************************
- * Main Function - Function description of what it does
- ***********************************************************************/
+/***************************************************
+* MAIN 
+* This is where the description of the function 
+* goes.
+***************************************************/
 int main()
 {
     // Display out to the console
@@ -113,7 +115,8 @@ int main()
 */
 
 /**********************************************************************
- * Example Function - For example purposes
+ * Example Function 
+ * For example purposes
  ***********************************************************************/
 int exampleFunction(char parameterInput)
 {
